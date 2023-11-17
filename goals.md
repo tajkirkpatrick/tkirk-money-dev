@@ -35,7 +35,7 @@ Objectives:
 - [x] Get Styling Setup
 - [x] Get a navigation bar setup
 - [ ] Get a landing page (loosely setup)
-- [ ] Save our changes for later
+- [x] Save our changes for later
 
 primary:
 --text: #250909;

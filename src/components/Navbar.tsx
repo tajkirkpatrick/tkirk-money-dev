@@ -41,7 +41,7 @@ function Navbar() {
                 </svg>
               </Button>
             </SheetTrigger>
-            <SheetContent className="flex h-full grow flex-col items-center text-center">
+            <SheetContent className="flex h-full grow flex-col items-center text-center dark:bg-[#01120A]">
               <SheetHeader className="h-full">
                 <SheetTitle className="text-2xl text-[#065425] underline underline-offset-8">
                   Where to?
