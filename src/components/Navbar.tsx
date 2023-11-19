@@ -21,13 +21,10 @@ function Navbar() {
           <Logo />
         </a>
         {/* Mobile Nav */}
-        <div className="flex md:hidden">
-          <div className="mr-2">
-            <ModeToggle />
-          </div>
+        <div className="flex gap-x-2 md:hidden">
           <Sheet>
             <SheetTrigger>
-              <Button size="icon" variant="outline">
+              <Button size="icon" variant="ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -129,6 +126,9 @@ function Navbar() {
               </SheetHeader>
             </SheetContent>
           </Sheet>
+          <div className="mr-2">
+            <ModeToggle />
+          </div>
         </div>
         {/* Desktop Nav */}
         <div className="hidden flex-row gap-x-2 md:flex">

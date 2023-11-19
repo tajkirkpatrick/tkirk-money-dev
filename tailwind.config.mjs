@@ -11,6 +11,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        "dm-sans": ["DM Sans Variable", "sans-serif"],
+        playfair: ["Playfair Display Variable", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

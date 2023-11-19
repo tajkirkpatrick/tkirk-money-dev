@@ -5,6 +5,8 @@ specifiers:
   '@astrojs/react': ^3.0.5
   '@astrojs/tailwind': ^5.0.2
   '@builder.io/qwik': ^1.2.17
+  '@fontsource-variable/dm-sans': ^5.0.3
+  '@fontsource-variable/playfair-display': ^5.0.18
   '@qwikdev/astro': ^0.1.17
   '@radix-ui/react-dialog': ^1.0.5
   '@radix-ui/react-dropdown-menu': ^2.0.6
@@ -30,6 +32,8 @@ dependencies:
   '@astrojs/react': 3.0.5_odyphbpq4up353b3xkkenmy5wy
   '@astrojs/tailwind': 5.0.2_5dxjn4rz5adkof4s7nsrliiepy
   '@builder.io/qwik': 1.2.18
+  '@fontsource-variable/dm-sans': 5.0.3
+  '@fontsource-variable/playfair-display': 5.0.18
   '@qwikdev/astro': 0.1.17_@builder.io+qwik@1.2.18
   '@radix-ui/react-dialog': 1.0.5_odyphbpq4up353b3xkkenmy5wy
   '@radix-ui/react-dropdown-menu': 2.0.6_odyphbpq4up353b3xkkenmy5wy
@@ -919,6 +923,14 @@ packages:
 
   /@floating-ui/utils/0.1.6:
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
+    dev: false
+
+  /@fontsource-variable/dm-sans/5.0.3:
+    resolution: {integrity: sha512-MrdN9qZ95gVqcSuOXMnbCuYS2TtL1mOiUqTaslP05rkZUi9LzrvbXsEGBCODVjJi9MH27HuKKJjOdWK0OeuIlw==}
+    dev: false
+
+  /@fontsource-variable/playfair-display/5.0.18:
+    resolution: {integrity: sha512-q4K/bihmrk4tn1v5zgznr9NYcTE6TVgtEkg8iiEude880/iVI+up+nDGXLV3Qt9hJYFAja5xOTCZFB5RhX4d6g==}
     dev: false
 
   /@jridgewell/gen-mapping/0.3.3:

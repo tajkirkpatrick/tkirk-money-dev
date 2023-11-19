@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import qwikdev from "@qwikdev/astro";
 import react from "@astrojs/react";
 
 import tailwind from "@astrojs/tailwind";
@@ -11,6 +10,5 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     react(),
-    qwikdev(),
   ],
 });
